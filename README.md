@@ -24,7 +24,7 @@ It is a page where the user accesses with his username and password, the user in
 
 __Login view__
 
-![image](https://github.com/SPiedra955/pharmacy/assets/114516225/3762da8b-bf80-4718-8e0c-3ef882f4576c)
+![image](https://github.com/SPiedra955/pharmacy/assets/114516225/84bd966b-986a-47da-b914-747a88babe5c)
 
 ### Gestio
 
@@ -33,11 +33,11 @@ In addition, there is a __Alta__ button which will be used to prescribe new medi
 
 __Gestio View Doctor 1__
 
-![image](https://github.com/SPiedra955/pharmacy/assets/114516225/3c79e9a7-18eb-4221-8962-561d1c8a01df)
+![image](https://github.com/SPiedra955/pharmacy/assets/114516225/ff76a46b-214e-4c09-8e63-c76cb68e98b8)
 
 __Gestio View Doctor 2__
 
-![image](https://github.com/SPiedra955/pharmacy/assets/114516225/e661e157-4559-4c91-ad48-2dec949a2f43)
+![image](https://github.com/SPiedra955/pharmacy/assets/114516225/2f1e8570-af44-4756-9c58-7c7d2a082912)
 
 ### Alta
 
@@ -45,21 +45,20 @@ This is the last web page, its functionality is to add an id for a xip to assign
 
 __View Alta__
 
-![image](https://github.com/SPiedra955/pharmacy/assets/114516225/bc8e4e2d-83a3-41e2-9b9f-536a5e512cec)
+![image](https://github.com/SPiedra955/pharmacy/assets/114516225/a74f6cac-79d0-4ba5-9eac-2942b9e09213)
 
 __Patients__
 
-![image](https://github.com/SPiedra955/pharmacy/assets/114516225/443f796b-8f6d-4138-b2bc-49a156c09bd1)
+![image](https://github.com/SPiedra955/pharmacy/assets/114516225/242983e6-9447-4f9b-ab24-55dd4eab12c8)
 
 __Medicines__ 
 
-![image](https://github.com/SPiedra955/pharmacy/assets/114516225/9aa8adad-d705-4bdd-8d19-20b8c2d5ff97)
+![image](https://github.com/SPiedra955/pharmacy/assets/114516225/fd4ad8b2-eb69-46d1-bfce-525e4aef4c65)
 
 __Calendar__
 
-![image](https://github.com/SPiedra955/pharmacy/assets/114516225/0a332d87-e9b5-42d0-9d2f-d2629178c53c)
+![image](https://github.com/SPiedra955/pharmacy/assets/114516225/07f0decf-9bff-44dc-b3e1-73334c4270c2)
 
 __Back to Gestio and new record__
 
-![image](https://github.com/SPiedra955/pharmacy/assets/114516225/9c09d18f-6d7d-4269-b2fe-9c909fe113f9)
-
+![image](https://github.com/SPiedra955/pharmacy/assets/114516225/fda526ad-09e1-4336-950d-3caff6be5422)
