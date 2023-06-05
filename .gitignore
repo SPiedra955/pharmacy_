@@ -1,0 +1,29 @@
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Maven specific files
+target/
+
+# Compiled Java classes
+bin/
+
+# Javadoc generated files
+doc/
+
+# Log files
+*.log
+
+# Caches and indexes
+.cache/
+.index/
+
+# External tool builders
+.externalToolBuilders/
+
+# Local configuration file (e.g., for path variables)
+.settings/org.eclipse.core.runtime.prefs
+
+# Code style settings
+.settings/org.eclipse.jdt.core.prefs

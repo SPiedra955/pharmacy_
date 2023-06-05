@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css_js/alta.css">
+    <title>Alta</title>
+</head>
+<body onload="getPatients(); getMedicines()">
+    <div class="form-container">
+        <div class="container">
+            <h1>Alta</h1>
+            <form id="altaForm" onsubmit="enviar(); return false;">
+                <div class="form-group">
+                    <label for="xipIdInput">Nº chip</label>
+                    <input type="text" id="xipIdInput" required>
+                </div>
+                <div class="form-group">
+                    <label for="patientsSelect">Seleccione un paciente</label>
+                    <select id="patientsSelect" required>
+                        <option value="" disabled selected>Seleccione un paciente</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="medicinesSelect">Seleccione un medicamento</label>
+                    <select id="medicinesSelect" required>
+                        <option value="" disabled selected>Seleccione un medicamento</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="dateInput">Fecha</label>
+                    <input type="date" id="dateInput" required>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+            <button onclick="window.location.href='Gestio.html'" id="gestioButton">Volver a Gestio</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="./css_js/alta.js"></script>
+</body>
+</html>
