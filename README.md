@@ -28,8 +28,8 @@ __Login view__
 
 ### Gestio
 
-On this page the doctor can see all discharges related to his or her user as well as the name of the medicine prescribed to a patient and the date until which he or she has to continue the medication.
-In addition, there is a __Alta__ button which will be used to prescribe new medicines to other users in a new page.
+On this page the doctor can see all patients related to his or her user as well as the name of the medicine prescribed to a patient and the date until which he or she has to continue the medication.
+In addition, there is a __Alta__ button which will be used to prescribe new medicines to other users or the same in a new page.
 
 __Gestio View Doctor 1__
 
