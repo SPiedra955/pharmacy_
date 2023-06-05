@@ -1,4 +1,3 @@
-
 function send() {
 	let http = new XMLHttpRequest();
 

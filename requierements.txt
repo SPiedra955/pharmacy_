@@ -1,0 +1,9 @@
+##############################
+### Tools for this project ###
+##############################
+
+* Apache Tomcat Server version 9
+* Apache Maven 3.8.7
+* Eclipse IDE for Enterprise Java and Web Developers
+* gson-2.9.1.jar
+* mysql-connector-j-8.0.31.jar

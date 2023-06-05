@@ -1,11 +1,9 @@
 public abstract class Person {
-        // Atributos
-        protected String name; // Nombre completo de la persona
+        protected String name;
         protected String email;
     
-        // Constructores
         public Person() {
-            // Constructor vacío
+           
         }
     
         public Person(String name, String email) {
@@ -13,7 +11,6 @@ public abstract class Person {
             this.email = email;
         }
     
-        // Métodos
         public abstract void load(String id);
     
 }

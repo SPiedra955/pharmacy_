@@ -3,12 +3,11 @@ public class Medicine {
     // Atributos
     private int id;
     private String name;
-    private float tmax; // Temperatura máxima
-    private float tmin; // Temperatura mínima
+    private float tmax; 
+    private float tmin;
 
-    // Constructores
     public Medicine() {
-        // Constructor vacío
+        
     }
 
     public Medicine(int id, String name, float tmax, float tmin) {
@@ -18,12 +17,9 @@ public class Medicine {
         this.tmin = tmin;
     }
 
-    // Métodos
     public void load(int id) {
-        // Cargar los atributos de la base de datos al objeto correspondiente al id en la BBDD
+        
     }
-
-    // Getters y Setters
 
     public int getId() {
         return id;

@@ -36,7 +36,7 @@ public class Doctor extends Person {
 
                 if (resultSet.next()) {
                     System.out.println("Inicio de sesión correcto.");
-                    session = generateSession(); // Generar el código de sesión (puedes implementar tu propia lógica aquí)
+                    session = generateSession(); 
 
                     // Actualizar la columna "last_log" y "session" en la base de datos
                     LocalDate currentDate = LocalDate.now();
@@ -72,21 +72,20 @@ public class Doctor extends Person {
     }
 
     public boolean isLogged(String email, String session) {
-        // Implementa la lógica para verificar si el usuario está registrado con la sesión proporcionada
         return false;
     }
 
     @Override
     public void load(String id) {
-        // Implementa la lógica para cargar los datos del doctor con el ID proporcionado
+      
     }
 
     public void loadReleaseList() {
-        // Implementa la lógica para cargar la lista de registros de alta del doctor
+        
     }
 
     public String getTable() {
-        // Implementa la lógica para obtener el nombre de la tabla correspondiente al doctor
+        
         return "";
     }
 
