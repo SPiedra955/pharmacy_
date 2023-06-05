@@ -11,7 +11,7 @@ This is a project in which we have to design a web application related to a phar
 
 * [Entorns_ FrontEnd.pdf](https://github.com/SPiedra955/pharmacy/files/11657564/Entorns_.FrontEnd.pdf)
 * [Entorns_ Backend.pdf](https://github.com/SPiedra955/pharmacy/files/11657566/Entorns_.Backend.pdf)
-* [Entorns_ BBDD.pdf](https://github.com/SPiedra955/pharmacy/files/11657576/Entorns_.BBDD.pdf)(Check this file to create the database, important!)
+* [Entorns_ BBDD.pdf](https://github.com/SPiedra955/pharmacy/files/11657576/Entorns_.BBDD.pdf) (Check this file to create the database, important!)
 
 # Project
 
