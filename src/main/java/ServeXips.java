@@ -39,24 +39,27 @@ public class ServeXips extends HttpServlet {
         String username = "root";
         String password = "1234";
         Connection connection = DriverManager.getConnection(dbUrl, username, password);
-        String selectQuery = "SELECT id, doctor_mail, id_medicine, id_patient, date FROM xip WHERE doctor_mail = ?";
+        String selectQuery = "SELECT x.id, x.doctor_mail, m.name AS medicine_name, x.id_patient, x.date " +
+                             "FROM xip AS x " +
+                             "JOIN medicine AS m ON x.id_medicine = m.id " +
+                             "WHERE x.doctor_mail = ?";
         PreparedStatement preparedStatement = connection.prepareStatement(selectQuery);
         preparedStatement.setString(1, email);
         ResultSet resultSet = preparedStatement.executeQuery();
         if (resultSet.next()) {
             StringBuilder tableData = new StringBuilder();
             tableData.append("<table>");
-            tableData.append("<tr><th>Id</th><th>Doctor Email</th><th>Id Medicine</th><th>Patient Email</th><th>Date</th></tr>");
+            tableData.append("<tr><th>Id</th><th>Doctor Email</th><th>Medicine</th><th>Patient Email</th><th>Date</th></tr>");
             do {
                 int id = resultSet.getInt("id");
                 String doctorEmail = resultSet.getString("doctor_mail");
-                int medicineId = resultSet.getInt("id_medicine");
+                String medicineName = resultSet.getString("medicine_name");
                 String patientEmail = resultSet.getString("id_patient");
                 String date = resultSet.getString("date");
                 tableData.append("<tr>");
                 tableData.append("<td>").append(id).append("</td>");
                 tableData.append("<td>").append(doctorEmail).append("</td>");
-                tableData.append("<td>").append(medicineId).append("</td>");
+                tableData.append("<td>").append(medicineName).append("</td>");
                 tableData.append("<td>").append(patientEmail).append("</td>");
                 tableData.append("<td>").append(date).append("</td>");
                 tableData.append("</tr>");
